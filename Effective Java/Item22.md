@@ -1,12 +1,12 @@
 ## Item 22. 인터페이스는 타입을 정의하는 용도로만 사용하라
 
-  
+<br>
 
 ### 인터페이스의 용도
 
 인터페이스를 구현하는 클래스가 자신의 인스턴스로 무엇을 할 수 있는지를 클라이언트에 얘기해주는 것 (타입으로서의 용도)
 
-  
+<br>
 
 ### 인터페이스의 용도를 벗어나게 하는 상수 인터페이스
 
@@ -21,7 +21,7 @@ public interface Constants {
 
 이는 인터페이스이기에 클래스에서 얼마든지 구현해 사용될 수 있다.
 
-  
+<br>
 
 #### 상수 인터페이스의 문제
 
@@ -34,7 +34,7 @@ public class Calculations implements Constants {
 }
 ```
 
-  
+<br>
 
 ```java
 // 의도하지 않게 일어나는 일 ver.2
@@ -53,7 +53,7 @@ public class Class1 implements Constants {
 
 [참고: wiki-Constant interface](https://en.wikipedia.org/wiki/Constant_interface#cite_note-2)
 
-  
+<br>
 
 이렇듯 상수 인터페이스는 ***안티패턴*** 으로 사용해서는 안되는 방법이다.
 
@@ -64,7 +64,8 @@ public class Class1 implements Constants {
 - 열거 타입이 적합한 상수라면 열거 타입 사용 ([아이템 34](Item34.md))
 - 인스턴스화 할 수 없는 유틸리티 클래스 사용 ([아이템 4](Item04.md)) 
 
-  
+
+<br>
 
 #### 상수 인터페이스 개선
 
@@ -80,7 +81,7 @@ public final class Constants {
 }
 ```
 
-  
+<br>
 
 ```java
 import static Constants.PLANCK_CONSTANT;
@@ -94,9 +95,9 @@ public class Calculations {
 }
 ```
 
-   
+<br>
 
-  
+<br>
 
 ***인터페이스는 타입을 정의하는 용도로만 사용해야 한다.***
 
