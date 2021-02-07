@@ -119,7 +119,6 @@ public enum Operation {
 ```
 
 - DoubleBinaryOperator 인터페이스는 `java.util.function` 패키지가 제공하는 함수형 인터페이스
-- 위의 예제에서는 상수별 클래스 본문이 사용되지 않았지만, 
 
 <br>
 
