@@ -12,7 +12,7 @@
 
 <br>
 
-> SOLID 패턴의 DIP(Dependency Inversion Principle, 의존성 역전 원칙) 에 대한 이야기
+> SOLID 원칙의 DIP(Dependency Inversion Principle, 의존성 역전 원칙) 에 대한 이야기
 >
 > - 의존은 추상과 이루어져야 하는 것
 > - 의존 관계를 맺을 때, 변화하기 쉬운 것보다 변화하기 어려운 것에 의존해야 하는 원칙
